@@ -1,7 +1,7 @@
 name: swipe_button_widget
 description: A new flutter plugin project.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/mahmoudsalah37/swipe_button_widget
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -35,6 +35,8 @@ flutter:
       ios:
         pluginClass: SwipeButtonWidgetPlugin
       windows:
+        pluginClass: SwipeButtonWidgetPlugin
+      Linux:
         pluginClass: SwipeButtonWidgetPlugin
       web:
         pluginClass: SwipeButtonWidgetWeb
